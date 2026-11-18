@@ -101,7 +101,7 @@
                                 <h1 class="text-lg sm:text-xl font-bold tracking-tight">E-ASESMEN SEMINAR PKL</h1>
                                 <span class="bg-amber-400/20 text-amber-200 border border-amber-300/30 text-[10px] font-semibold px-2 py-0.5 rounded-full uppercase tracking-wider">Kurikulum Merdeka</span>
                             </div>
-                            <p id="header-school-name" class="text-xs sm:text-sm text-blue-200 font-medium">SMK NEGERI 1 NUSANTARA • Tahun Ajaran 2026/2027</p>
+                            <p id="header-school-name" class="text-xs sm:text-sm text-blue-200 font-medium">SMK NEGERI 1 AMARASI SELATAN • Tahun Ajaran 2026/2027</p>
                         </div>
                     </div>
 
@@ -709,15 +709,15 @@
                         <form id="school-settings-form" onsubmit="saveSchoolSettings(event)" class="space-y-3.5">
                             <div>
                                 <label class="block text-xs font-semibold text-slate-700 mb-1">Nama Pemerintah Provinsi / Yayasan</label>
-                                <input type="text" id="set-pemprov" value="PEMERINTAH PROVINSI JAWA BARAT • DINAS PENDIDIKAN" class="w-full rounded-xl border border-slate-300 px-3.5 py-2 text-sm">
+                                <input type="text" id="set-pemprov" value="PEMERINTAH PROVINSI NUSA TENGGARA TIMUR • DINAS PENDIDIKAN DAN KEBUDAYAAN" class="w-full rounded-xl border border-slate-300 px-3.5 py-2 text-sm">
                             </div>
                             <div>
                                 <label class="block text-xs font-semibold text-slate-700 mb-1">Nama Sekolah (SMK)</label>
-                                <input type="text" id="set-sekolah" value="SMK NEGERI 1 NUSANTARA" class="w-full rounded-xl border border-slate-300 px-3.5 py-2 text-sm font-semibold">
+                                <input type="text" id="set-sekolah" value="SMK NEGERI 1 AMARASI SELATAN" class="w-full rounded-xl border border-slate-300 px-3.5 py-2 text-sm font-semibold">
                             </div>
                             <div>
                                 <label class="block text-xs font-semibold text-slate-700 mb-1">Alamat Lengkap, Telepon & Website Sekolah</label>
-                                <input type="text" id="set-alamat" value="Jl. Pendidikan Raya No. 45, Kota Nusantara • Telp. (021) 555-0199 • www.smkn1nusantara.sch.id" class="w-full rounded-xl border border-slate-300 px-3.5 py-2 text-sm">
+                                <input type="text" id="set-alamat" value="Jl. A. R. Koroh - Kode Pos 85367 • http://smkn1amarasiselatan.sch.id" class="w-full rounded-xl border border-slate-300 px-3.5 py-2 text-sm">
                             </div>
 
                             <!-- Input URL Logo Pemda & Logo Sekolah -->
@@ -747,7 +747,7 @@
                                 </div>
                                 <div>
                                     <label class="block text-xs font-semibold text-slate-700 mb-1">Kota Tanda Tangan</label>
-                                    <input type="text" id="set-kota" value="Nusantara" class="w-full rounded-xl border border-slate-300 px-3.5 py-2 text-sm">
+                                    <input type="text" id="set-kota" value="Retraen" class="w-full rounded-xl border border-slate-300 px-3.5 py-2 text-sm">
                                 </div>
                                 <div>
                                     <label class="block text-xs font-semibold text-blue-800 mb-1">Tanggal Ujian Default</label>
@@ -768,19 +768,19 @@
                                     </div>
                                     <div>
                                         <label class="block text-[11px] font-semibold text-slate-600 mb-1">Nama Wakabid Kurikulum</label>
-                                        <input type="text" id="set-wakabid-nama" value="Dra. Ratna Dewi, M.Pd." class="w-full rounded-xl border border-slate-300 px-3 py-2 text-xs">
+                                        <input type="text" id="set-wakabid-nama" value="Imanuel Maniyeni, S.Pd.,Gr." class="w-full rounded-xl border border-slate-300 px-3 py-2 text-xs">
                                     </div>
                                     <div>
                                         <label class="block text-[11px] font-semibold text-slate-600 mb-1">NIP Wakabid Kurikulum</label>
-                                        <input type="text" id="set-wakabid-nip" value="19790817 200501 2 011" class="w-full rounded-xl border border-slate-300 px-3 py-2 text-xs">
+                                        <input type="text" id="set-wakabid-nip" value="19881125 202521 1 034" class="w-full rounded-xl border border-slate-300 px-3 py-2 text-xs">
                                     </div>
                                     <div>
                                         <label class="block text-[11px] font-semibold text-slate-600 mb-1">Nama Kepala Sekolah</label>
-                                        <input type="text" id="set-kepsek-nama" value="H. Hendra Wijaya, S.Pd., M.M." class="w-full rounded-xl border border-slate-300 px-3 py-2 text-xs">
+                                        <input type="text" id="set-kepsek-nama" value="Rizal B. Ndolu, S.Pi., M.M." class="w-full rounded-xl border border-slate-300 px-3 py-2 text-xs">
                                     </div>
                                     <div>
                                         <label class="block text-[11px] font-semibold text-slate-600 mb-1">NIP Kepala Sekolah</label>
-                                        <input type="text" id="set-kepsek-nip" value="19720110 199803 1 008" class="w-full rounded-xl border border-slate-300 px-3 py-2 text-xs">
+                                        <input type="text" id="set-kepsek-nip" value="19720525 200604 1 017" class="w-full rounded-xl border border-slate-300 px-3 py-2 text-xs">
                                     </div>
                                 </div>
                             </div>
@@ -1110,14 +1110,14 @@
         let pendingLoginRole = null;
 
         let schoolConfig = {
-            pemprov: "PEMERINTAH PROVINSI JAWA BARAT • DINAS PENDIDIKAN",
-            sekolah: "SMK NEGERI 1 NUSANTARA",
-            alamat: "Jl. Pendidikan Raya No. 45, Kota Nusantara • Telp. (021) 555-0199 • www.smkn1nusantara.sch.id",
+            pemprov: "PEMERINTAH PROVINSI NUSA TENGGARA TIMUR • DINAS PENDIDIKAN DAN KEBUDAYAAN",
+            sekolah: "SMK NEGERI 1 AMARASI SELATAN",
+            alamat: "Jl. A. R. Koroh - Kode Pos 85367 • http://smkn1amarasiselatan.sch.id",
             logoPemda: "https://imanuelmaniyeni51-create.github.io/e-asesmenpkl/NTT.png",
             logoSekolah: "https://imanuelmaniyeni51-create.github.io/e-asesmenpkl/Logo Sekolah.png",
             tanggalUjian: "2026-11-18",
             ta: "2026/2027",
-            kota: "Nusantara",
+            kota: "Retraen",
             kaprodiNama: "Ir. Budi Santoso, M.T.",
             kaprodiNip: "19820412 200902 1 004",
             wakabidNama: "Dra. Ratna Dewi, M.Pd.",
@@ -2953,7 +2953,7 @@ function responseJSON(obj) {
 
         function getFormattedPemprovLines() {
             // Memisahkan "PEMERINTAH PROVINSI ..." dan "DINAS PENDIDIKAN..."
-            const raw = (schoolConfig.pemprov || "PEMERINTAH PROVINSI JAWA BARAT • DINAS PENDIDIKAN").trim();
+            const raw = (schoolConfig.pemprov || "PEMERINTAH PROVINSI NUSA TENGGARA TIMUR • DINAS PENDIDIKAN DAN KEBUDAYAAN").trim();
             const parts = raw.split('•').map(s => s.trim());
             const line1 = parts[0] || "PEMERINTAH PROVINSI JAWA BARAT";
             const line2 = parts[1] || "DINAS PENDIDIKAN DAN KEBUDAYAAN";
